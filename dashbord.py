@@ -6,7 +6,7 @@ import plotly.express as px
 st.title("Dashboard Interativo: Doença Cardíaca")
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/datablist/sample-csv-files/main/files/people/heart.csv"
+    url = "https://raw.githubusercontent.com/kb22/Heart-Disease-Prediction/master/dataset.csv"
     df = pd.read_csv(url)
     return df
 
